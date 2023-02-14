@@ -1,0 +1,175 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 70%;
+  }
+}
+@media (max-width: 1024px) {
+  #hero .hero--title h1 {
+    font-size: 40px;
+  }
+  #hero .hero--title p {
+    padding: 20px 0;
+    font-size: 14px;
+  }
+  #hero .hero--title button {
+    margin-top: 10px;
+    width: 201px;
+    height: 46px;
+    font-size: 19px;
+  }
+  #block .block--glav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #block .block--glav__card {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  #works .works--block__title h1 {
+    font-size: 28px;
+    padding-bottom: 10px;
+  }
+  #works .works--block__title p {
+    font-size: 13px;
+  }
+  #works .works--block__title--bg h2 {
+    width: 56px;
+    height: 27px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 992px) {
+  #works .works--block__title h1 {
+    font-size: 28px;
+    padding-bottom: 5px;
+  }
+  #works .works--block__title p {
+    font-size: 12px;
+  }
+  #works .works--block__title--bg h2 {
+    width: 56px;
+    height: 27px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  #hero .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+  #hero .hero--title {
+    padding-bottom: 40px;
+  }
+  #works .h1 {
+    font-size: 38px;
+  }
+  #works .works--block__title h1 {
+    font-size: 21px;
+  }
+  #works .works--block__title p {
+    font-size: 12px;
+  }
+  #works .works--block__title--bg h2 {
+    width: 51px;
+    height: 22px;
+    font-size: 14px;
+  }
+  #works .works--block__title p {
+    font-size: 8px;
+  }
+  #blog .blog--title h1 {
+    font-size: 38px;
+  }
+  #blog .blog--glav__card {
+    width: 582px;
+  }
+  #blog .blog--glav__card h1 {
+    font-size: 28px;
+  }
+  #blog .blog--glav__card p {
+    font-size: 14px;
+  }
+  #workss .workss--block img {
+    width: 100%;
+  }
+  #workss .workss--block__title h1 {
+    padding-bottom: 10px;
+    font-size: 30px;
+  }
+  #workss .workss--block__title p {
+    font-size: 13px;
+  }
+  #workss .workss--block__title--bg h2 {
+    width: 56px;
+    height: 22px;
+    font-size: 16px;
+  }
+  #amet .amet--title h1 {
+    font-size: 28px;
+  }
+  #amet .amet--title h2 {
+    font-size: 22px;
+  }
+  #amet .amet--title p {
+    font-size: 12px;
+  }
+  #amet .amet img {
+    width: 100%;
+  }
+  #footer .footer--nav a {
+    font-size: 34px;
+    padding-left: 25px;
+  }
+  #footer .footer p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 576px) {
+  #hero .hero--title h1 {
+    font-size: 36px;
+    line-height: 45px;
+  }
+  #hero .hero--title p {
+    padding: 16px 0;
+    font-size: 13px;
+  }
+  #hero .hero--title button {
+    margin-top: 5px;
+    width: 173px;
+    height: 41px;
+    font-size: 17px;
+  }
+  #block .block--glav__card {
+    width: 334px;
+  }
+  #block .block--glav__card h1 {
+    font-size: 24px;
+  }
+  #block .block--glav__card p {
+    font-size: 15px;
+  }
+  #works .works--block {
+    flex-direction: column;
+  }
+  #works .works--block img {
+    margin-top: 20px;
+  }
+  #works .works--block__title {
+    padding-left: 67px;
+  }
+  #works .works--block__title p {
+    font-size: 9px;
+  }
+  #works .works--block__title h1 {
+    font-size: 13px;
+  }
+  #works .works--block__title--bg h2 {
+    width: 41px;
+    height: 18px;
+    font-size: 12px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

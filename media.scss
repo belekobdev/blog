@@ -1,0 +1,289 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 70%;
+  }
+}
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 1024px) {
+  #hero {
+    .hero {
+      &--title {
+        h1 {
+          font-size: 40px;
+        }
+        p {
+          padding: 20px 0;
+          font-size: 14px;
+        }
+        button {
+          margin-top: 10px;
+          width: 201px;
+          height: 46px;
+          font-size: 19px;
+        }
+      }
+    }
+  }
+  #block {
+    .block {
+      &--title {
+
+      }
+      &--glav   {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        &__card {
+          margin-top: 20px;
+          margin-bottom: 40px;
+        }
+      }
+    }
+  }
+  #works {
+    .works {
+      &--block {
+        &__title {
+          h1 {
+            font-size: 28px;
+            padding-bottom: 10px;
+          }
+          p {
+            font-size: 13px;
+          }
+          &--bg {
+            h2 {
+              width: 56px;
+              height: 27px;
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+  #works {
+    .works {
+      &--block {
+        &__title {
+          h1 {
+            font-size: 28px;
+            padding-bottom: 5px;
+          }
+          p {
+            font-size: 12px;
+          }
+          &--bg {
+            h2 {
+              width: 56px;
+              height: 27px;
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+@media (max-width: 768px) {
+    #hero {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+        &--title {
+      padding-bottom: 40px;
+        }
+      }
+    }
+  #works {
+    .h1 {
+      font-size: 38px;
+    }
+    .works {
+      &--block {
+        &__title {
+          h1 {
+            font-size: 21px;
+            //padding-bottom: 5px;
+          }
+          p {
+            font-size: 12px;
+          }
+          &--bg {
+            h2 {
+              width: 51px;
+              height: 22px;
+              font-size: 14px;
+            }
+          }
+          p {
+            font-size: 8px;
+          }
+        }
+      }
+    }
+  }
+  #blog {
+    .blog {
+      &--title  {
+      h1 {
+        font-size: 38px;
+      }
+      }
+      &--glav {
+        &__card {
+          width: 582px;
+        h1 {
+          font-size: 28px;
+        }
+          p  {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+  #workss {
+    .workss {
+      &--block {
+        img {
+          width: 100%;
+        }
+        &__title {
+          h1 {
+            padding-bottom: 10px;
+            font-size: 30px;
+
+          }
+          p {
+            font-size: 13px;
+          }
+          &--bg {
+          h2 {
+            width: 56px;
+            height: 22px;
+            font-size: 16px;
+          }
+          }
+        }
+      }
+    }
+  }
+  #amet {
+    .amet {
+      &--title {
+        h1 {
+          font-size: 28px;
+        }
+        h2 {
+          font-size: 22px;
+        }
+        p {
+          font-size: 12px;
+        }
+      }
+      img {
+        width: 100%;
+      }
+    }
+  }
+  #footer {
+    .footer {
+      &--nav {
+        a {
+          font-size: 34px;
+          padding-left: 25px;
+        }
+      }
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+    #hero {
+      .hero {
+        &--title {
+          h1 {
+            font-size: 36px;
+            line-height: 45px;
+          }
+          p {
+            padding: 16px 0;
+            font-size: 13px;
+          }
+          button {
+            margin-top: 5px;
+            width: 173px;
+            height: 41px;
+            font-size: 17px;
+          }
+        }
+      }
+    }
+  #block {
+    .block {
+        &--title {
+
+        }
+      &--glav {
+    &__card {
+      width: 334px;
+      h1 {
+        font-size: 24px;
+      }
+      p {
+        font-size: 15px;
+      }
+    }
+      }
+    }
+  }
+  #works {
+    .works {
+      &--block {
+        flex-direction: column;
+        img {
+          margin-top: 20px;
+        }
+        //width: 60%;
+        &__title {
+          padding-left: 67px;
+
+          p {
+            font-size: 9px;
+          }
+          h1 {
+            font-size: 13px;
+          }
+          &--bg {
+h2 {
+  width: 41px;
+  height: 18px;
+  font-size: 12px;
+}
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 451px) {
+
+}
+@media (max-width: 400px) {
+
+}
+@media (max-width: 376px) {
+
+}
+@media (max-width: 320px) {
+
+}
